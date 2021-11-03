@@ -1,0 +1,132 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(231, 229, 229);
+    padding: 0;
+    margin: 0;
+}
+
+.logotip{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.purple{
+    width: 100%;
+    height: 350px;
+    background: url("https://miro.medium.com/max/2000/0*1m_g_R5_Q6Zk_LGJ.jpg") center no-repeat;
+}
+
+header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #04436c;
+}
+
+.img{
+    padding-left: 20px;
+}
+
+ul{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-transform: uppercase;
+    align-content: end;
+    position: absolute;
+    right: 0;
+    list-style: none;
+    line-height: 30px;
+}
+
+.site{
+    color: #aaaaaa;
+}
+.site:hover{
+    color: #c757b8;
+    border-bottom: 2px solid #c757b8;
+}
+
+a{
+    text-decoration: none;
+}
+
+.myDiv{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+
+.tovar{
+    width: 100%;
+    height: 2300px;
+    background-color: #125883;
+    margin-top: 150px;
+}
+
+.first{
+    width: 95%;
+    height: 500px;
+    background-color: #5e7489;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.phones{
+    width: 250px;
+    height: 400px;
+    background-color: #6d8692;
+    margin: auto;
+    border-radius: 5%;
+    padding: 5px;
+    border: 1px solid #2c4351;
+}
+
+.phones:hover{
+    background-color: #e6388c;
+}
+
+.phoneimg{
+    width: 250px;   
+}
+
+.phoneimg1{
+    width: 200px;
+}
+
+.information{
+    color: #243f4a;
+}
+
+.shop{
+    color: #0a3a8d;
+}
+
+.images1{
+    margin-top: -40px;
+}
+
+.korzina{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#btn{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #1b3240;
+    color: #35305e;
+    background-color: #c757b8;
+}
+
+#btn:hover{
+    background-color: #1b3240;
+    color: #c757b8;
+}
